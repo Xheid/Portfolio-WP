@@ -1,0 +1,171 @@
+/*
+Theme Name: latte-child
+Description: Theme enfant pour latte
+Author: Victor Bléchet
+Template: latte
+Version: 0.0.1
+*/
+
+li {
+    list-style-type: none;
+}
+
+ul{
+    padding: 0;
+}
+
+.portfolio{
+	background: #F5F5F5;
+	padding: 50px 75px;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 60px;
+}
+
+.skills  h2 {
+	color: white;
+}
+
+.skills h3 {
+	color: #c4c4c4;
+}
+.portfolio h2 {
+    font-size: 40px;
+    font-family: "Sanchez",sans-serif;
+    font-weight: bold;
+    word-break: break-all;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.portfolio .titre {
+    color: #9F8E8E;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.project{
+    position: relative;
+    width: 200px;
+    margin: 20px;
+}
+
+.infoproject{
+
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(10,10,10,0.9);
+    opacity: 0;
+    transition: opacity 0.6s;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+
+}
+
+.infoproject p{
+    font-family: inherit;
+}
+
+.infoproject .title{
+    border-bottom: 0.1em solid white;
+    padding-bottom: 10px;
+    margin-top: 10%;
+
+}
+
+.project:hover .infoproject{
+    opacity: 1;
+
+}
+
+.containerproject{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.infoproject h3 {
+    font-family: "Sanchez",sans-serif;
+    font-weight: bold;
+}
+
+.about .lead {
+    font-size: 1.2em;
+}
+
+.ninja-forms-required-items{
+    display: none;
+}
+
+#ninja_forms_field_3{
+    height: 100px;
+}
+
+#ninja_forms_form_1_all_fields_wrap{
+    width: 50%;
+    margin: auto;
+}
+
+.subscribe h2, .subscribe h3 {
+    color: black;
+}
+
+.verbatim {
+    background: rgba(10,10,10,0.9);
+    text-align: center;
+    color: white;
+    min-height: 300px;
+    margin: auto;
+}
+
+.verbatim h2 {
+    font-family: "Sanchez",sans-serif; 
+    margin: 0; 
+    font-size: 40px;
+    padding-top: 70px
+}
+
+.verbatim h3 {
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.verbatim p {
+    margin: 0;
+    font-family: "Sanchez",sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.verbatim .auteur {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.footer li{
+    margin: auto;
+    display: inline-block;
+    padding: 1px;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 1091px)  {  
+    .about .row{
+        margin: 0;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
